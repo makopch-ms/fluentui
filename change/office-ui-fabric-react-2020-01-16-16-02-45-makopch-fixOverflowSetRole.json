@@ -1,0 +1,8 @@
+{
+  "type": "patch",
+  "comment": "correct set role if provided by props",
+  "packageName": "office-ui-fabric-react",
+  "email": "makopch@microsoft.com",
+  "commit": "b9de9f4a4db6155ef4a61d97044917c10e869501",
+  "date": "2020-01-17T00:02:45.049Z"
+}
