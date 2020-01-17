@@ -31,7 +31,7 @@ export class OverflowSetBase extends BaseComponent<IOverflowSetProps, {}> implem
 
     this._classNames = getClassNames(styles, { className, vertical });
 
-    const role = this.props.role || vertical ? 'menu' : 'menubar';
+    const role = this.props.role || (vertical ? 'menu' : 'menubar');
 
     let Tag;
     let uniqueComponentProps;
